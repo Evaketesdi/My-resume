@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1300px;
+    background-color: rgb(208, 206, 199);
+    padding: 20px;  
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 6px 20px 0 rgb(131, 129, 129);
+    flex-basis: 100%;
+}
+.main-section>div {
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgb(97, 96, 96);
+}
+.right-side-section {
+    padding-left: 50px;
+    width: 60%;
+    background-color: whitesmoke;
+}
+.right-side-section div {
+    padding: 5px;
+}
+.company {
+    color: orangered;
+}
+.university-title {
+    color: orangered;
+}
+.period {
+    color: grey;
+    opacity: 0.7;
+}
+ul, ol, p {
+    color: rgb(107, 106, 106);
+}
+ul, ol {
+    padding-left: 17px;
+}
+.block {
+    width: 80%;
+}
+.sidebar-section {
+    background-color: rgb(40, 36, 48);
+    color: whitesmoke;
+    padding-top: 20px;
+    width: 40%;
+    border-radius: 5px;
+}
+.contacts-section-value {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(164, 162, 162);
+}
+.sidebar-list {
+    color: orangered;
+    padding-left: 20px;
+}
+.sidebar-list span {
+    color: rgb(164, 162, 162);
+}
+.photo {
+    width: 60%;
+    margin: 20px 100px 20px 100px;
+    border-radius: 5px;
+}
+.sidebar-section-main {
+    padding: 40px;
+}
