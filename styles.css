@@ -35,11 +35,14 @@
     color: grey;
     opacity: 0.7;
 }
-ul, ol, p {
+ul, ol, p, span {
     color: rgb(107, 106, 106);
 }
 ul, ol {
     padding-left: 17px;
+}
+a {
+    text-decoration: none;
 }
 .block {
     width: 80%;
